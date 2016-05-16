@@ -1,6 +1,8 @@
 # WhdeViewPager
-类似安卓的ViewPager
-
+类似安卓的ViewPager，效果如下
+<p>
+<image src="https://raw.githubusercontent.com/whde/WhdeViewPager/master/Screen.gif" width=200 heght=100% algn="center"/>
+</p>
 # 使用
 ```objective-c
 viewPager_ = [[WhdeViewPager alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
