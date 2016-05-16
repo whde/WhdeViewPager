@@ -1,0 +1,6 @@
+{
+  "name": "Whdeviewpager",
+  "tagline": "类似安卓的ViewPager(Android ViewPager)",
+  "body": "# WhdeViewPager\r\n类似安卓的 <code>ViewPager</code> <code>(Android ViewPager)</code>，效果如下\r\n<p align=\"center\">\r\n<image src=\"https://raw.githubusercontent.com/whde/WhdeViewPager/master/Screen.gif\" width=200 heght=100%/>\r\n</p>\r\n# 使用\r\n```objective-c\r\nviewPager_ = [[WhdeViewPager alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];\r\nUIView *view1 = [[UIView alloc] init];\r\nview1.backgroundColor = [UIColor lightGrayColor];\r\nUIView *view2 = [[UIView alloc] init];\r\nview2.backgroundColor = [UIColor whiteColor];\r\nUIView *view3 = [[UIView alloc] init];\r\nview3.backgroundColor = [UIColor yellowColor];\r\nUIView *view4 = [[UIView alloc] init];\r\nview4.backgroundColor = [UIColor grayColor];\r\nUIView *view5 = [[UIView alloc] init];\r\nview5.backgroundColor = [UIColor magentaColor];\r\n\r\n[viewPager_ setItemsView:@[view1, view2, view3, view4, view5] withTitle:@[@\"第一页面\", @\"第二页面\", @\"第三页面\", @\"第四页面\", @\"第五页面\"]];\r\n[self.view addSubview:viewPager_];\r\n\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
