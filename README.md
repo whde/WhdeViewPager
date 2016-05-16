@@ -1,7 +1,7 @@
 # WhdeViewPager
-类似安卓的ViewPager，效果如下
+类似安卓的 <code>ViewPager</code> <code>(Android ViewPager)</code>，效果如下
 <p>
-<image src="https://raw.githubusercontent.com/whde/WhdeViewPager/master/Screen.gif" width=200 heght=100% algn="center"/>
+<image src="https://raw.githubusercontent.com/whde/WhdeViewPager/master/Screen.gif" width=200 heght=100% align="center"/>
 </p>
 # 使用
 ```objective-c
