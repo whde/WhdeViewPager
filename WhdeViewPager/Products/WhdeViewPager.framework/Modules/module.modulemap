@@ -1,0 +1,6 @@
+framework module WhdeViewPager {
+  umbrella header "WhdeViewPager.h"
+
+  export *
+  module * { export * }
+}
