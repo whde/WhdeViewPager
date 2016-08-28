@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
 #  summary should be tweet-length, and the description more in depth.
 #
 
-s.name         = "BreakPoint"
-s.version      = "1.0.1"
-s.summary      = "Objective-C断点续传"
+s.name         = "WhdeViewPager"
+s.version      = "1.0.0"
+s.summary      = "iOS ViewPager"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,9 @@ s.summary      = "Objective-C断点续传"
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 s.description  = <<-DESC
-Swift实现断点续传,Demo简单易懂,没有太多复杂模块和逻辑,完整体现断点续传的原理
+iOS ViewPager,类似Android 的ViewPager
 DESC
-
-s.homepage     = "https://github.com/whde/BreakPoint"
+s.homepage     = "https://github.com/whde/WhdeViewPager"
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +79,7 @@ s.platform     = :ios, "7.0"
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/whde/BreakPoint.git", :tag => s.version.to_s }
+s.source       = { :git => "https://github.com/whde/WhdeViewPager.git", :tag => s.version.to_s }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +90,7 @@ s.source       = { :git => "https://github.com/whde/BreakPoint.git", :tag => s.v
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "Classes", "BreakPoint/Whde/*"
+s.source_files  = "WhdeViewPager/Class/*"
 # s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
@@ -118,7 +117,7 @@ s.source_files  = "Classes", "BreakPoint/Whde/*"
 #
 
 # s.framework  = "SomeFramework"
-s.frameworks = 'Foundation', 'UIKit'
+s.frameworks = 'Foundation', 'UIKit', 'QuartzCore'
 
 # s.library   = "iconv"
 # s.libraries = "iconv", "xml2"
